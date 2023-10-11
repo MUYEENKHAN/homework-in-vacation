@@ -1,0 +1,210 @@
+/* common css start */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+/* navbar start =====================*/
+.navbar .navbar-flex {
+    display: flex;
+    align-items: center;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+}
+
+.logo-div a {
+    padding-right: 10px;
+}
+
+.menu-list {
+    margin-left: auto;
+}
+
+.navbar .menu-list .ul-flex {
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.navbar .menu-list .ul-flex li {
+    margin-left: 20px;
+}
+
+.navbar .menu-list .ul-flex li a {
+    color: black;
+}
+
+/* banner start ======================*/
+.banner {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner .banner-content {
+    padding: 150px 0;
+}
+
+.banner .banner-content h1 {
+    color: white;
+    text-align: center;
+}
+
+/* test token start ==================*/
+.token {
+    background-color: #fafafa;
+}
+
+.token h3 {
+    text-align: center;
+    padding: 30px 0 20px 0;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.tn-flex {
+    display: flex;
+    /* background-color: lightgreen; */
+    column-gap: 20px;
+}
+
+.token .itm-one-main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.token .itm-one {
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.token .tn-flex .itm-one .form-flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    /* box-sizing: border-box; */
+}
+
+.token .itm-one .form-flex :nth-child(n) {
+    background-color: #fafafa;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    padding: 13px;
+    border-radius: 3px;
+}
+
+.token .itm-one .form-flex>:last-child {
+    width: fit-content;
+    padding: 13px 50px;
+    background-color: rgb(38, 171, 85);
+    color: white;
+}
+
+#total-token {
+    margin: 20px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.tn-flex .itm-second-main {
+    width: 50%;
+}
+
+.tn-flex .itm {
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.tn-flex .itm .item-heading {
+    background-color: rgb(38, 171, 85);
+    border-radius: 3px 3px 0 0;
+}
+
+.tn-flex .itm .item-heading .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+
+.tn-flex .itm .items {
+    padding: 20px;
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.tn-flex .itm .items .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+.tn-flex .itm .items .item #name {
+    color: rgb(38, 171, 85);
+}
+
+.tn-flex .itm .items .item #tkn-no {
+    background-color: rgb(38, 171, 85);
+    padding: 8px 25px;
+    border-radius: 3px;
+    color: white;
+}
+
+.tn-flex .itm.completed .item-heading {
+    background-color: rgb(36, 134, 199);
+}
+
+.tn-flex .itm.completed .items .item #name {
+    color: rgb(36, 134, 199);
+}
+
+.tn-flex .itm.completed .items .item #tkn-no {
+    background-color: rgb(36, 134, 199);
+}
+
+.tn-flex .itm.canceled .item-heading {
+    background-color: rgb(221, 48, 126);
+}
+
+.tn-flex .itm.canceled .items .item #name {
+    color: rgb(221, 48, 126);
+}
+
+.tn-flex .itm.canceled .items .item #tkn-no {
+    background-color: rgb(221, 48, 126);
+}

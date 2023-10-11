@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>token</title>
+    <link rel="stylesheet" href="assetes/css/style.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="navbar">
+        <div class="container navbar-flex">
+            <div class="logo-div">
+                <a href="#"><img src="assetes/images/logo512.png" alt="logo"></a>
+                <a href="#"><img src="assetes/images/token handler.png" alt="part-of-logo"></a>
+            </div>
+            <div class="menu-list">
+                <nav>
+                    <ul class="ul-flex">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- banner start -->
+    <div class="banner">
+        <div class="container banner-content">
+            <h1>PLEASE TAKE A TOKEN FIRST</h1>
+        </div>
+    </div>
+    <!-- banner end -->
+
+    <!-- test token start -->
+    <div class="token">
+        <h3>token Status</h3>
+        <div class="container tn-flex">
+            <div class="itm-one-main">
+                <div class="itm-one">
+                    <form class="form-flex" action="">
+                        <input id="name" type="text" placeholder="Name">
+                        <input id="phone" type="text" placeholder="Phone number">
+                        <select id="status" name="Status" id="token-status">
+                            <option value="active">active</option>
+                            <option value="completed">completed</option>
+                            <option value="canceled">canceled</option>
+                        </select>
+                        <button id="btn">add token</button>
+                    </form>
+                </div>
+                <span id="total-token">Total Tokens:00</span>
+            </div>
+            <div class="itm-second-main">
+                <div class="itm">
+                    <div class="item-heading">
+                        <div class="title">
+                            <span>active token</span>
+                            <span id="total-active">0</span>
+                        </div>
+                    </div>
+                    <div id="items" class="items">
+                        <!-- keep empty -->
+
+                    </div>
+                </div>
+                <div class="itm completed">
+                    <div class="item-heading">
+                        <div class="title">
+                            <span>completed token</span>
+                            <span id="total-completed">0</span>
+                        </div>
+                    </div>
+                    <div id="completed" class="items">
+                        <!-- keep empty -->
+                    </div>
+                </div>
+                <div class="itm canceled">
+                    <div class="item-heading">
+                        <div class="title">
+                            <span>canceled token</span>
+                            <span id="total-canceled">0</span>
+                        </div>
+                    </div>
+                    <div id="canceled" class="items">
+                        <!-- keep empty -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- test token end -->
+    <script src="assetes/js/custom.js"></script>
+</body>
+
+</html>
